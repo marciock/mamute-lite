@@ -1,7 +1,7 @@
 <?php
 
 try{
-    $pdo=new PDO("mysql:dbname=ecommerce;host=localhost","root","password");
+    $pdo=new PDO("mysql:dbname=ecommerce;host=localhost","root","");
     
 }
 catch(PDOException $e){
