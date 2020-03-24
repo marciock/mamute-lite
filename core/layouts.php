@@ -15,12 +15,12 @@ require_once __DIR__.'/route.php';
           if($urlAtual==$r[0]){
           // echo $r[1];
 
-          require_once __DIR__."/../controller/".$r[1].".php";
+          require_once __DIR__."/../controllers/".$r[1].".php";
 
           }
       }
     }else{
-      require_once __DIR__."/../controller/".$route[0][1].".php";
+      require_once __DIR__."/../controllers/".$route[0][1].".php";
 
     }
     
